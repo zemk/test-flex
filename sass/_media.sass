@@ -1,12 +1,62 @@
-@media (max-width: 1024px)
+// @media (max-width: 1024px)
 
 @media (max-width: 992px)
   .container
     max-width: 700px
 @media (max-width: 768px)
+  .d-n768
+    display: none
   .container
     max-width: 576px
     width: 92%
-// @media (max-width: 576px)
+
+  .main
+    &::before
+
+      width: 100%
+      height: 100%
+    &-h1
+      font-size: 38px
+    &-img
+      width: 100%
+      margin-bottom: 60px
+    &-text
+      width: 100%
+    &-box
+      flex-direction: column
+  .more
+    &-box
+      flex-direction: column
+      align-items: center
+    &-p
+      text-align: center
+    &-h2
+      text-align: center
+    &-button
+      margin: 0 auto
+      width: 200px
+
+    &-text
+      width: 100%
+      margin-bottom: 40px
+    &-img
+      width: 100%
+  .footer
+    &-box
+      flex-direction: column
+      align-items: center
+    &-text
+      width: 250px
+      margin: 0 auto
+    &-p
+      width: 100%
+  .boxs
+    text-align: center
+@media (max-width: 425px)
+  .dn-425
+    display: none
+  .footer-back
+    right: 0
+    top: -57px
 
 // @media (max-width: 375px)
